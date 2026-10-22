@@ -19,5 +19,9 @@ Bài tập lớn học phần Triển khai và Quản trị hệ thống phần 
 
 Tải code về máy:
 ```bash
-git clone [https://github.com/DTC245200642/BTL-TrienKhaiHeThong-DTC245200642.git](https://github.com/DTC245200642/BTL-TrienKhaiHeThong-DTC245200642.git)
+git clone https://github.com/DTC245200642/BTL-TrienKhaiHeThong-DTC245200642.git
 cd BTL-TrienKhaiHeThong-DTC245200642
+cp .env.example .env
+chmod 600 .env
+docker-compose up -d
+docker ps
